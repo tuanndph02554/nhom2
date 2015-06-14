@@ -1,0 +1,12 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b, kq;
+            Console.WriteLine(" Nhập a: ");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine(" Nhập b: ");
+            b = int.Parse(Console.ReadLine());
+            kq = a + b;
+            Console.WriteLine("kq=" + kq.ToString());
+        }
